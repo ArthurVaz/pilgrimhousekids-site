@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pilgrim House Kids</title>
+<meta name="description" content="Calm Bible stories for children four to eight, in English and Brazilian Portuguese. No ads, no accounts, works offline.">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pilgrim House Kids">
+<meta property="og:title" content="Pilgrim House Kids">
+<meta property="og:description" content="Calm Bible stories for children four to eight, in English and Brazilian Portuguese. No ads, no accounts, works offline.">
+<meta property="og:url" content="https://pilgrimhousekids.com/">
+<meta property="og:image" content="https://pilgrimhousekids.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+
+<style>
+/* Both faces are SIL Open Font License, served from this site so that
+   visiting it tells nobody anything. The licences sit beside the files
+   in fonts/, which the OFL requires. */
+@font-face{font-family:Fraunces;font-style:normal;font-weight:300 700;font-display:swap;
+  src:url(fonts/fraunces-latin-full-normal.woff2) format("woff2")}
+@font-face{font-family:Fraunces;font-style:italic;font-weight:300 700;font-display:swap;
+  src:url(fonts/fraunces-latin-full-italic.woff2) format("woff2")}
+@font-face{font-family:"Alegreya Sans";font-style:normal;font-weight:400;font-display:swap;
+  src:url(fonts/alegreya-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Alegreya Sans";font-style:italic;font-weight:400;font-display:swap;
+  src:url(fonts/alegreya-sans-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Alegreya Sans";font-style:normal;font-weight:500;font-display:swap;
+  src:url(fonts/alegreya-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Alegreya Sans";font-style:normal;font-weight:700;font-display:swap;
+  src:url(fonts/alegreya-sans-latin-700-normal.woff2) format("woff2")}
+</style>
+<style>
+:root{
+  --ground:#E8DEC8; --surface:#F4EEE0;
+  --ink:#37291C; --ink-soft:#6B5842; --ink-faint:#8C7A63;
+  --rule:#CFC0A2; --rule-soft:#DCD0B6;
+  --accent:#47637E; --brass:#A8813F; --sage:#6B7049;
+  --display:Fraunces,"Iowan Old Style",Georgia,serif;
+  --body:"Alegreya Sans","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --measure:37rem; --wide:46rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#221A13; --surface:#2C2219;
+  --ink:#EBE0CA; --ink-soft:#B7A488; --ink-faint:#8E7C63;
+  --rule:#4A3B2A; --rule-soft:#3B2E21;
+  --accent:#8FAECB; --brass:#CDA25C; --sage:#99A06E; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --ground:#221A13; --surface:#2C2219;
+  --ink:#EBE0CA; --ink-soft:#B7A488; --ink-faint:#8E7C63;
+  --rule:#4A3B2A; --rule-soft:#3B2E21;
+  --accent:#8FAECB; --brass:#CDA25C; --sage:#99A06E; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.page{max-width:var(--wide);margin:0 auto;padding:0 1.5rem 5rem}
+.masthead{display:flex;align-items:flex-start;justify-content:space-between;gap:1.5rem;
+  flex-wrap:wrap;padding:2.6rem 0 0}
+.imprint{display:flex;align-items:center;gap:.65rem;color:var(--ink-soft);font-size:.78rem;
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+.langswitch{display:flex;gap:1px;background:var(--rule);border:1px solid var(--rule);
+  border-radius:2px;overflow:hidden}
+.langswitch button{appearance:none;border:0;margin:0;padding:.34rem .8rem;background:var(--surface);
+  color:var(--ink-soft);font-family:var(--body);font-size:.76rem;font-weight:500;
+  letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.langswitch button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1{font-family:var(--display);font-variation-settings:"SOFT" 60,"WONK" 1,"opsz" 100;
+  font-weight:500;font-size:clamp(2.4rem,7vw,3.4rem);line-height:1.06;letter-spacing:-.015em;
+  margin:2.4rem 0 0;text-wrap:balance}
+.subtitle{font-family:var(--display);font-variation-settings:"SOFT" 60,"WONK" 1,"opsz" 30;
+  font-size:1.18rem;font-style:italic;color:var(--brass);margin:.5rem 0 0}
+.opening{margin:2.4rem 0 0;padding:2.1rem 0;border-top:2px solid var(--brass);
+  border-bottom:1px solid var(--rule)}
+/* He has no background of his own, so he stands straight on the parchment.
+   Below 620px the column is too narrow to hold both, so he drops under the
+   text at half size rather than squeezing it. */
+.opening.figured{display:grid;grid-template-columns:1fr 13rem;gap:1.6rem;align-items:center}
+.opening.figured img{width:100%;height:auto;display:block}
+@media (max-width:620px){
+  .opening.figured{grid-template-columns:1fr;gap:.8rem}
+  .opening.figured img{width:9.5rem;margin:0 auto}
+}
+.lede{font-family:var(--display);font-variation-settings:"SOFT" 70,"WONK" 1,"opsz" 90;
+  font-weight:400;font-size:clamp(1.45rem,4.4vw,1.95rem);line-height:1.26;margin:0;
+  text-wrap:balance;max-width:var(--measure)}
+.detail{margin:1.5rem 0 0;color:var(--ink-soft);max-width:var(--measure)}
+section{padding:2.4rem 0 0}
+section>*:not(h2){max-width:var(--measure)}
+h2{display:flex;align-items:baseline;gap:.8rem;font-family:var(--display);
+  font-variation-settings:"SOFT" 60,"WONK" 1,"opsz" 24;font-weight:600;font-size:1.28rem;
+  line-height:1.3;margin:0 0 .9rem;text-wrap:balance}
+h2 .num{flex:none;min-width:1.5rem;font-family:var(--body);font-size:.8rem;font-weight:700;
+  letter-spacing:.08em;color:var(--brass);font-variant-numeric:tabular-nums}
+h3{font-family:var(--display);font-variation-settings:"SOFT" 60,"WONK" 1,"opsz" 24;
+  font-weight:600;font-size:1.02rem;margin:1.5rem 0 .25rem;max-width:var(--measure)}
+p{margin:0 0 1.05rem;max-width:var(--measure)}
+p:last-child{margin-bottom:0}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+/* **Not a grid.** A grid makes every child of the li its own item, so a
+   list item written as <strong>Label</strong> — then prose put the prose
+   in the 1.1rem bullet column and wrapped it one word per line on a
+   phone. Absolute positioning keeps the whole item one line of text. */
+.plain{list-style:none;margin:0 0 1.05rem;padding:0;max-width:var(--measure)}
+.plain li{position:relative;padding:.16rem 0 .16rem 1.15rem}
+.plain li::before{content:"\00b7";position:absolute;left:0;top:.16rem;color:var(--sage);
+  font-weight:700;font-size:1.2rem;line-height:1.5}
+.colophon{margin:3.2rem 0 0;padding:1.7rem 0 0;border-top:2px solid var(--brass);
+  color:var(--ink-soft);font-size:.95rem;max-width:var(--measure)}
+.colophon .name{font-family:var(--display);font-variation-settings:"SOFT" 60,"WONK" 1,"opsz" 24;
+  font-size:1.08rem;color:var(--ink);display:block;margin-bottom:.2rem}
+.colophon .slogan{margin-top:1.4rem;color:var(--ink-faint);font-family:var(--display);
+  font-variation-settings:"SOFT" 70,"WONK" 1,"opsz" 24;font-style:italic;font-size:1rem}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
+</style>
+
+<nav class="sitenav" aria-label="Site"><div class="sitenav-inner">
+  <a href="./">Pilgrim House Kids</a>
+  <span><a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp; <a href="support.html">Support</a></span>
+</div></nav>
+<style>
+.sitenav{border-bottom:1px solid var(--rule,#CFC0A2);background:var(--surface,#F4EEE0)}
+.sitenav-inner{max-width:46rem;margin:0 auto;padding:.7rem 1.5rem;display:flex;
+  justify-content:space-between;gap:1rem;flex-wrap:wrap;
+  font:500 .82rem/1.4 "Alegreya Sans","Avenir Next",system-ui,sans-serif;
+  letter-spacing:.06em;text-transform:uppercase}
+.sitenav a{color:var(--ink-soft,#6B5842);text-decoration:none}
+.sitenav a:hover{color:var(--accent,#47637E);text-decoration:underline}
+</style>
+<div class="page">
+<header class="masthead">
+<div class="imprint"><svg width="18" height="24" viewBox="0 0 18 24" fill="none" aria-hidden="true">
+<path d="M9 1.5a2.6 2.6 0 0 1 2.6 2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M4.5 5.2h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M6 7.4h6l1.4 10.2H4.6L6 7.4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M3.4 20.1h11.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="9" cy="12.6" r="2.1" fill="var(--brass)"/></svg><span>Pilgrim House Publishing</span></div>
+<div class="langswitch" role="group" aria-label="Language / Idioma"><button type="button" id="btn-en" aria-pressed="true">English</button><button type="button" id="btn-pt" aria-pressed="false">Português</button></div>
+</header>
+
+<main id="doc-en" lang="en">
+<h1>Pilgrim House Kids</h1>
+<p class="subtitle">Little Stories. Eternal Truth.</p>
+
+<div class="opening figured">
+  <div>
+  <p class="lede">Bible stories for small children, told calmly &mdash; and an app built to be put down.</p>
+  <p class="detail">Stories read aloud at bedtime, pages to read together, and quiet games that
+  ask a child to look and think rather than to hurry. In English and Brazilian Portuguese,
+  for roughly four to eight years old.</p>
+  </div>
+  <div class="figure"><picture>
+    <source srcset="img/pilgrim.webp" type="image/webp">
+    <img src="img/pilgrim.png" width="560" height="840"
+         alt="The Pilgrim: an elderly, kindly man in a brown coat and blue scarf, holding a walking staff and a lit brass lantern">
+  </picture></div>
+</div>
+
+<section>
+  <h2><span class="num">01</span>What it is</h2>
+  <ul class="plain">
+    <li><strong>Stories to listen to</strong> &mdash; eight so far, read aloud, made for the end of the day</li>
+    <li><strong>Pages to read</strong> &mdash; the same stories in large type, with an illustration on every page, narrated for a child who cannot read yet</li>
+    <li><strong>A comic</strong> &mdash; the Pilgrim tells the first Christmas, twenty pages</li>
+    <li><strong>Games</strong> &mdash; matching, counting, sequencing, spelling; no timers, no scores, nothing to lose</li>
+    <li><strong>A Parents area</strong>, behind a gate a small child cannot pass</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="num">02</span>What it does not have</h2>
+  <p>No advertising. No accounts. No chat, no comments, no links out. No streaks, no scores,
+  no notifications pulling a child back to it. Nothing is collected about your child, and
+  nothing they do in the app ever leaves the iPad &mdash; the whole thing works in Airplane Mode.</p>
+  <p>The <a href="privacy.html">privacy policy</a> says the same thing at length, for anyone
+  who wants to check.</p>
+</section>
+
+<section>
+  <h2><span class="num">03</span>Where to get it</h2>
+  <p>Pilgrim House Kids is in development for iPad and iPhone, and is not on the App Store yet.
+  This page will carry the link when it is.</p>
+  <p>Questions, or a school or church that would like to try it early: write to us at <a href="mailto:hello@pilgrimhousekids.com">hello@pilgrimhousekids.com</a>.</p>
+  <div class="colophon">
+    <span class="name">Pilgrim House Publishing</span>
+    Australia<br><a href="mailto:hello@pilgrimhousekids.com">hello@pilgrimhousekids.com</a>
+    <p class="slogan">Little Stories. Eternal Truth.</p>
+  </div>
+</section>
+</main>
+
+<main id="doc-pt" lang="pt-BR" hidden>
+<h1>Pilgrim House Kids</h1>
+<p class="subtitle">Pequenas Hist&oacute;rias. Verdade Eterna.</p>
+
+<div class="opening figured">
+  <div>
+  <p class="lede">Hist&oacute;rias b&iacute;blicas para crian&ccedil;as pequenas, contadas com calma &mdash; e um app feito para ser desligado.</p>
+  <p class="detail">Hist&oacute;rias narradas para a hora de dormir, p&aacute;ginas para ler junto e jogos
+  tranquilos, que pedem para a crian&ccedil;a olhar e pensar em vez de correr. Em portugu&ecirc;s do Brasil
+  e em ingl&ecirc;s, para mais ou menos quatro a oito anos.</p>
+  </div>
+  <div class="figure"><picture>
+    <source srcset="img/pilgrim.webp" type="image/webp">
+    <img src="img/pilgrim.png" width="560" height="840"
+         alt="O Peregrino: um senhor de idade, bondoso, de casaco marrom e cachecol azul, com um cajado e uma lanterna acesa">
+  </picture></div>
+</div>
+
+<section>
+  <h2><span class="num">01</span>O que tem dentro</h2>
+  <ul class="plain">
+    <li><strong>Hist&oacute;rias para ouvir</strong> &mdash; oito at&eacute; agora, narradas, feitas para o fim do dia</li>
+    <li><strong>P&aacute;ginas para ler</strong> &mdash; as mesmas hist&oacute;rias em letra grande, com uma ilustra&ccedil;&atilde;o em cada p&aacute;gina e narra&ccedil;&atilde;o para quem ainda n&atilde;o l&ecirc;</li>
+    <li><strong>Uma hist&oacute;ria em quadrinhos</strong> &mdash; o Peregrino conta o primeiro Natal, em vinte p&aacute;ginas</li>
+    <li><strong>Jogos</strong> &mdash; pares, contagem, sequ&ecirc;ncia, soletra&ccedil;&atilde;o; sem cron&ocirc;metro, sem pontua&ccedil;&atilde;o, sem perder</li>
+    <li><strong>Uma &aacute;rea dos Pais</strong>, atr&aacute;s de uma verifica&ccedil;&atilde;o que crian&ccedil;a pequena n&atilde;o passa</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="num">02</span>O que n&atilde;o tem</h2>
+  <p>Sem publicidade. Sem cadastro. Sem bate-papo, sem coment&aacute;rios, sem links para fora.
+  Sem sequ&ecirc;ncias di&aacute;rias, sem pontua&ccedil;&atilde;o, sem notifica&ccedil;&atilde;o puxando a crian&ccedil;a de volta.
+  Nada &eacute; coletado sobre a sua crian&ccedil;a, e nada do que ela faz no app sai do iPad &mdash;
+  tudo funciona no Modo Avi&atilde;o.</p>
+  <p>A <a href="privacy.html">pol&iacute;tica de privacidade</a> diz o mesmo em detalhe, para quem quiser conferir.</p>
+</section>
+
+<section>
+  <h2><span class="num">03</span>Onde baixar</h2>
+  <p>O Pilgrim House Kids est&aacute; em desenvolvimento para iPad e iPhone e ainda n&atilde;o est&aacute; na App Store.
+  Esta p&aacute;gina vai trazer o link quando estiver.</p>
+  <p>D&uacute;vidas, ou uma escola ou igreja que queira experimentar antes: escreva para <a href="mailto:hello@pilgrimhousekids.com">hello@pilgrimhousekids.com</a>.</p>
+  <div class="colophon">
+    <span class="name">Pilgrim House Publishing</span>
+    Austr&aacute;lia<br><a href="mailto:hello@pilgrimhousekids.com">hello@pilgrimhousekids.com</a>
+    <p class="slogan">Pequenas Hist&oacute;rias. Verdade Eterna.</p>
+  </div>
+</section>
+</main>
+
+</div>
+
+<script>
+(function(){
+  var k='phk-site-lang';
+  var d={en:document.getElementById('doc-en'),pt:document.getElementById('doc-pt')};
+  var b={en:document.getElementById('btn-en'),pt:document.getElementById('btn-pt')};
+  if(!d.en||!d.pt) return;
+  function apply(l){ if(l!=='pt')l='en'; var o=l==='pt'?'en':'pt';
+    d[l].hidden=false; d[o].hidden=true;
+    b[l].setAttribute('aria-pressed','true'); b[o].setAttribute('aria-pressed','false');
+    document.documentElement.lang=(l==='pt'?'pt-BR':'en');
+    try{localStorage.setItem(k,l)}catch(e){} }
+  var s=null; try{s=localStorage.getItem(k)}catch(e){}
+  if(!s && /^pt/i.test(navigator.language||'')) s='pt';
+  if(s) apply(s);
+  b.en.addEventListener('click',function(){apply('en')});
+  b.pt.addEventListener('click',function(){apply('pt')});
+})();
+</script>
+
+</body>
+</html>
